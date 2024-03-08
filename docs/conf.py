@@ -16,7 +16,7 @@
 language = 'en'
 
 # -- Options for HTML output -------------------------------------------------
-
+autodoc_mock_imports = ['_tkinter']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
