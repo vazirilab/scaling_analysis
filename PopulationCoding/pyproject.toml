@@ -1,0 +1,26 @@
+[project]
+name = "PopulationCoding"
+version = "0.1.0"
+authors = [
+  { name="Jason Manley", email="jmanley@rockefeller.edu"},
+]
+license = {file = "LICENSE.md"}
+description = "Tools for analyzing dynamics and encoding in neural populations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+# TODO: pin dependencies
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scikit-learn",
+    "scipy"
+]
+
+[project.urls]
+Homepage = "https://github.com/vazirilab/scaling_analysis/tree/main/PopulationCoding"
+Documentation = "https://scaling-analysis.readthedocs.io/projects/PopulationCoding"
+Issues = "https://github.com/vazirilab/scaling_analysis/issues"

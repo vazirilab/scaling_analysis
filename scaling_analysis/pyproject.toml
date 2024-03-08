@@ -1,0 +1,31 @@
+[project]
+name = "scaling_analysis"
+version = "0.1.0"
+authors = [
+  { name="Jason Manley", email="jmanley@rockefeller.edu"},
+]
+license = {file = "LICENSE.md"}
+description = "Analysis of the dimensionality of neuronal population dynamics as a function of neuron number"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+# TODO: pin dependencies
+dependencies = [
+    "hdf5storage",
+    "h5py",
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "PopulationCoding",
+    "scikit-learn",
+    "scipy",
+    "tqdm"
+]
+
+[project.urls]
+Homepage = "https://github.com/vazirilab/scaling_analysis/tree/main/scaling_analysis"
+Documentation = "https://scaling-analysis.readthedocs.io"
+Issues = "https://github.com/vazirilab/scaling_analysis/issues"
