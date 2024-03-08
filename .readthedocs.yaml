@@ -18,6 +18,7 @@ build:
       - cp demo_20210305_bihemisphere_M1.ipynb docs/scaling_analysis/demo_bihemisphere.ipynb
       - cp demo_20210310_right_hemisphere.ipynb docs/scaling_analysis/demo_single_hemisphere.ipynb
       - cp demo_20210311_left_1p2mm.ipynb docs/scaling_analysis/demo_single_region.ipynb
+      - pip install PopulationCoding
       - sphinx-apidoc -o docs/scaling_analysis/ scaling_analysis/scaling_analysis/
       - sphinx-apidoc -o docs/PopulationCoding/ PopulationCoding/PopulationCoding/
 
