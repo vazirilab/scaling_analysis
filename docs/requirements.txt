@@ -5,3 +5,5 @@ sphinx
 sphinxcontrib-apidoc
 sphinx-multiproject
 sphinx_rtd_theme
+PopulationCoding
+scaling_analysis
